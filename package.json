@@ -40,5 +40,5 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "yarn run lint:fix"
   },
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
