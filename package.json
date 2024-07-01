@@ -8,7 +8,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "prepare": "husky",
-    "release": "release-it",
+    "release": "standard-version",
     "lint": "eslint --cache \"./**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint --cache --fix \"./**/*.{js,jsx,ts,tsx}\""
   },
@@ -29,7 +29,7 @@
     "lint-staged": "^15.2.7",
     "pinst": "^3.0.0",
     "prettier": "^3.3.2",
-    "release-it": "^17.4.1",
+    "standard-version": "^9.5.0",
     "typescript": "^5.5.3"
   },
   "husky": {
@@ -39,5 +39,6 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "yarn run lint:fix"
-  }
+  },
+  "version": "0.1.0"
 }
